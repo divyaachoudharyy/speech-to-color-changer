@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+}
+
+
+h1, p, h3 {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+div {
+  height: 100px;
+  overflow: auto;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.hints span {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
